@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* Variables */
+:root {
+  --font-family: "Roboto", sans-serf;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --bg-color: #fcfcfc;
+  --primary-color: #ff7300;
+  --secondary-color: #32004b;
+  --primary-shadow: #000000;
+  --secondary-shadow: #0077ff;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+/* Variables end */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  }
+
+nav h1 {
+  color: var(--primary-color);
+  padding-left: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+    float: left;
+    font-weight: var(--bold-font);
+    padding: 10px;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 18px;
+  color: var(--primary-color);
+  transition: var(--transition);
+}
+
+nav a:hover {
+  color: #ffffff;
+  background-color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.burger-menu {
+  color: var(--primary-color);
+  font-size: 2rem;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+} 
+
+body {
+  font-family: var(--font-family);
+}
+
+
+
+ 
+
+  #topsection {
+    max-height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
