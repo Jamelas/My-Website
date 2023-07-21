@@ -1,14 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
-
 /* Variables */
 :root {
   --font-family: "Roboto", sans-serf;
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
+  --bg-color: #32004b;
   --primary-color: #ff7300;
-  --secondary-color: #32004b;
+  --secondary-color: #ffffff;
   --primary-shadow: #000000;
   --secondary-shadow: #0077ff;
   --bottom-margin: 0.5rem;
@@ -29,21 +27,52 @@ html {
   box-sizing: border-box;
 }
 
+/* ----- Nav Bar Starts ----- */
 nav {
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-  }
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 3px 5px var(--primary-shadow);
+  background-color: var(--bg-color);
+}
+
+@keyframes color-change {
+  0% { color: var(--primary-color); }
+  50% { color: var(--secondary-color); }
+  100% { color: var(--primary-color); }
+}
+
+
 
 nav h1 {
-  color: var(--primary-color);
-  padding-left: 10px;
+  padding-left: 20px;
+
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    var(--primary-color) 45%,
+    
+    var(--secondary-color) 50%,
+    
+    var(--primary-color) 55%
+  );
+  background-size: 90% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear infinite;      
 }
+@keyframes textclip {
+  to {
+    background-position: 900% center;
+  }
+}
+
+
 
 nav ul {
   list-style-type: none;
@@ -51,24 +80,22 @@ nav ul {
 }
 
 nav li {
-    float: left;
-    font-weight: var(--bold-font);
-    padding: 10px;
+  float: left;
+  font-weight: var(--bold-font);
 }
 
 nav a {
   display: block;
   text-decoration: none;
   text-align: center;
-  padding: 14px 18px;
-  color: var(--primary-color);
+  padding: 20px;
   transition: var(--transition);
+  color: #ffffff;
 }
 
 nav a:hover {
   color: #ffffff;
-  background-color: var(--secondary-color);
-  border-bottom: 2px solid var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 .burger-menu {
@@ -79,17 +106,49 @@ nav a:hover {
   cursor: pointer;
   display: none;
 } 
+/* ----- Nav Bar Ends ----- */
+
 
 body {
   font-family: var(--font-family);
 }
 
 
+#topsection {
+  max-height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
 
- 
 
-  #topsection {
-    max-height: 100vh;
-    overflow: hidden;
-    position: relative;
-  }
+/* ----- Hero Starts ----- */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+}
+
+.hero img {
+  height: 20rem;
+  width: 20rem;
+}
+
+.about {
+  width: 25rem;
+  padding: 0.625rem;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}
+
+.about h1 {
+  margin-bottom: var(--bottom-margin);
+}
+
+.about p {
+  line-height: var(--line-height);
+  padding: 0.3rem 0;
+} 
+/* ----- Hero Ends ----- */
