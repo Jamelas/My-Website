@@ -1,0 +1,77 @@
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    background-color: var(--bg-color);
+}
+  
+nav h1 {
+  padding-left: 20px;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    var(--secondary-color) 30%, 
+    var(--primary-color) 50%,
+    var(--secondary-color) 70%
+  );
+  background-size: 90% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 12s linear infinite;      
+}
+
+@keyframes textclip {
+  to {
+    background-position: 900% center;
+  }
+}
+
+nav a:hover h1 {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  background-image: linear-gradient(
+    -225deg,
+    var(--bg-color) 30%,  
+    var(--secondary-color) 50%,
+    var(--bg-color) 70%
+  ); 
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  float: left;
+  font-weight: var(--bold-font);
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 1em;
+  transition: var(--transition);
+  color: var(--secondary-color);
+}
+
+nav a:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+.burger-menu {
+  color: var(--primary-color);
+  font-size: 2rem;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+} 

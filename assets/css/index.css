@@ -1,0 +1,85 @@
+/* ----- Hero Starts ----- */
+.hero {
+    float: left;
+    left: 0;
+    width: 33.33333%;
+    padding: 1.5%;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+  }
+  
+  .hero img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .hero .quick-stats td {
+    vertical-align: baseline;
+    text-align: center;
+    padding-bottom: 0.6em;
+  }
+  
+  .hero .quick-stats i {
+    font-size: 1.3em;
+    margin-left: 0.3em;
+    margin-bottom: 0.4em;
+    margin-right: 0.4em;
+    color: var(--bg-color);
+  }
+  
+  .hero .quick-stats p {
+    text-align: left;
+    margin-left: 0.6em;;
+  }
+  
+  .hero hr {
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+  .about h2 {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+  .about p {
+    line-height: var(--line-height);
+    padding: 0.3rem;
+  } 
+  /* ----- Hero Ends ----- */
+  
+  
+  .main-index {
+    float: right;
+    margin-left: 1.5%;
+    width: 63.66666%;
+  }
+  /* ----- Tech Stack Starts ----- */
+  section {
+    padding: 1.5em;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    margin-bottom: 1.5em;;
+  }
+  
+  
+  
+  .tech-icons {
+    padding: 1.25rem;
+  }
+  
+  .tech i{
+    font-size: 3em;
+    color: var(--primary-color); 
+    text-shadow: 1px 1px 2px  var(--primary-shadow);
+    background-color: #fff;
+    border-radius: 0.3em;
+    box-shadow: var(--box-shadow);
+    padding: 0.1em;
+    margin: 0.1em;
+  }
+  
+  .tech-row {
+     
+    margin-bottom: 1.4em;
+  }
+  /* ----- Tech Stack Ends ----- */

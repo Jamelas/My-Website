@@ -1,4 +1,9 @@
-/* Variables */
+@import "nav-bar.css";
+@import "footer.css";
+@import "index.css";
+
+@import "https://fonts.googleapis.com/css?family=Roboto";
+
 :root {
   --font-family: "Roboto", sans-serf;
   --normal-font: 400;
@@ -9,13 +14,13 @@
   --secondary-color: #ffffff;
   --primary-shadow: #000000;
   --secondary-shadow: #0077ff;
-  --box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  --box-shadow: 0px 2px 10px 1px var(--primary-shadow);
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
   --transition: 0.3s;
+  --border-radius: 6px;
 }
-/* Variables end */
 
 html {
   scroll-behavior: smooth;
@@ -28,79 +33,9 @@ html {
   box-sizing: border-box;
 }
 
-
-/* ----- Nav Bar Starts ----- */
-nav {
-  position: sticky;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  background-color: var(--bg-color);
+h2 {
+  margin-bottom: 1em;
 }
-
-nav h1 {
-  padding-left: 20px;
-
-  text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    var(--secondary-color) 30%,
-    
-    var(--primary-color) 50%,
-    
-    
-    var(--secondary-color) 70%
-  );
-  background-size: 90% auto;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 12s linear infinite;      
-}
-@keyframes textclip {
-  to {
-    background-position: 900% center;
-  }
-}
-
-nav ul {
-  list-style-type: none;
-  display: flex;
-}
-
-nav li {
-  float: left;
-  font-weight: var(--bold-font);
-}
-
-nav a {
-  display: block;
-  text-decoration: none;
-  text-align: center;
-  padding: 20px;
-  transition: var(--transition);
-  color: var(--secondary-color);
-}
-
-nav a:hover {
-  color: var(--secondary-color);
-  background-color: var(--primary-color);
-}
-
-.burger-menu {
-  color: var(--primary-color);
-  font-size: 2rem;
-  border: 0;
-  background-color: transparent;
-  cursor: pointer;
-  display: none;
-} 
-/* ----- Nav Bar Ends ----- */
-
 
 body {
   font-family: var(--font-family);
@@ -117,96 +52,3 @@ body {
     display: table;
     clear: both;
 }
-
-
-/* ----- Hero Starts ----- */
-.hero {
-  float: left;
-  left: 0;
-  width: 33.33333%;
-  padding: 1.5%;
-  border-radius: 6px;
-  box-shadow: var(--box-shadow);
-}
-
-.hero img {
-  width: 100%;
-  margin-bottom: 1rem;
-}
-
-.about h2 {
-  margin-bottom: var(--bottom-margin);
-}
-
-.about p {
-  line-height: var(--line-height);
-  padding: 0.3rem;
-} 
-/* ----- Hero Ends ----- */
-
-main {
-  float: right;
-  margin-left: 1.5%;
-  width: 63.66666%;
-}
-/* ----- Tech Stack Starts ----- */
-.tech {
-  text-align: center; 
-  padding: 1.5em;
-  border-radius: 6px;
-  box-shadow: var(--box-shadow);
-}
-
-.tech i{
-  font-size: 3em;
-  color: var(--primary-color);
-  text-shadow: 1px 1px 2px  var(--primary-shadow);
-  margin: 0.5em;
-}
-
-.tech-row {
-  margin: 1em;
-}
-/* ----- Tech Stack Ends ----- */
-
-
-
-/* ----- Footer Starts ----- */
-footer {
-  background-color: var(--bg-color);
-  color: var(--secondary-color);
-  text-align: center;
-  padding: 10px;
-  position: relative;
-}
-
-footer p {
-  padding: 10px;
-}
-
-.social i {
-  font-size:25px;
-}
-
-.social a {
-  color: var(--secondary-color);
-  text-decoration: none;
-}
-
-.social a:hover {
-  color: var(--primary-color);
-}
-
-footer i {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-footer hr {
-  margin: 0.4em;
-  height: 2.5px;
-  background-color: var(--secondary-color);
-}
-
-
-/* ----- Footer Ends ----- */
