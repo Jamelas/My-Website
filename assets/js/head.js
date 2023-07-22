@@ -24,3 +24,5 @@ class Head extends HTMLElement {
 }
 
 customElements.define('head-component', Head);
+
+
