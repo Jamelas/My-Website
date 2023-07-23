@@ -6,16 +6,16 @@
   --bold-font: 600;
   --bolder-font: 900;
   --bg-color: #32004b;
+  --secondary-bg: #f1f1f1;
   --primary-color: #ff7300;
   --secondary-color: #ffffff;
   --primary-shadow: #000000;
-  --secondary-shadow: #0077ff;
   --box-shadow: 0px 2px 10px 1px var(--primary-shadow);
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
   --transition: 0.3s;
-  --border-radius: 6px;
+  --border-radius: 3px;
 }
 
 html {
@@ -34,9 +34,18 @@ h2 {
 }
 
 body {
+  background-color:var(--secondary-bg);
   font-family: var(--font-family);
   max-width: 1440px;
   margin: auto;
+}
+
+section {
+  background-color: var(--secondary-color);
+  padding: 1.5em;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  margin-bottom: 1.5em;;
 }
 
 .container {

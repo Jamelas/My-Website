@@ -23,7 +23,7 @@ nav h1 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 12s linear infinite;      
+  animation: textclip 10s linear infinite;      
 }
 
 @keyframes textclip {
