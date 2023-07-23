@@ -10,7 +10,6 @@ class Head extends HTMLElement {
     
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
-    <script src="https://kit.fontawesome.com/f407607c7f.js" crossorigin="anonymous"></script>
     
     <!-- CSS Styles -->
     <link rel="stylesheet" href="assets/css/styles.css"/> 
