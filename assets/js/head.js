@@ -13,7 +13,12 @@ class Head extends HTMLElement {
     
     <!-- CSS Styles -->
     <link rel="stylesheet" href="assets/css/styles.css"/> 
+    <link rel="stylesheet" href="assets/css/nav-bar.css"/> 
+    <link rel="stylesheet" href="assets/css/footer.css"/> 
+
     <link rel="stylesheet" href="assets/css/index.css"/>
+    <link rel="stylesheet" href="assets/css/skills.css"/>
+    <link rel="stylesheet" href="assets/css/projects.css"/>
     <link rel="stylesheet" href="assets/css/contact.css"/>
     
     <!-- Favicons -->
