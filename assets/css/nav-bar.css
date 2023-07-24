@@ -6,12 +6,14 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  
+    height: 4.5em;
+    padding: 0.5em;
     background-color: var(--bg-color);
 }
   
 nav h1 {
   padding-left: 20px;
+  padding-right: 20px;
   text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
