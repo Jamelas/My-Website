@@ -19,6 +19,7 @@
   float:left;
   width: 33%;
   height: 35em;
+  background-color: ;
 }
 
 .projects-container:after {
@@ -33,39 +34,30 @@
 
 
 .project-btn {
-  
-  
   text-align: center;
   display: flex;
   flex-direction: column;
-
 }
-.project-btn a {
-  background-color: var(--bg-color);
-  color: var(--secondary-color);
+
+.project-card {
   text-decoration: none;
   font-weight: var(--normal-font);
-  padding: 0.5em;
   border-radius: var(--border-radius);
-  
+  color: black;
 }
 
-.project-btn a:hover {
-  background-color: var(--primary-color);
+.project-card:hover {
+  background-color: var(--primary-color-opacity);
+  
 }
 
 .projects li {
   display: inline;
 }
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .project-card {
-    width: 50%;
-  }
-}
+
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
   .project-card {
     width: 100%;
   }
