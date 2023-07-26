@@ -9,11 +9,22 @@ nav {
     height: 4.5em;
     padding: 0.5em;
     background-color: var(--bg-color);
+    max-width: 1280px;
+    margin: auto;
+}
+
+.nav-behind {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 5em;
+  padding: 0.5em;
+  background-color: var(--bg-color);
+  z-index: 0;
 }
   
 nav h1 {
-  padding-left: 20px;
-  padding-right: 20px;
   text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
@@ -25,7 +36,7 @@ nav h1 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 10s linear infinite;      
+  animation: textclip 10s linear infinite;    
 }
 
 @keyframes textclip {
@@ -68,6 +79,7 @@ nav a:hover {
   color: var(--secondary-color);
   background-color: var(--primary-color);
 }
+
 
 .burger-menu {
   color: var(--primary-color);
