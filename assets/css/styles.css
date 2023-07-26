@@ -8,6 +8,7 @@
   --bg-color: #32004b;
   --secondary-bg: #e4dfda88;
   --primary-color: #ff7300;
+  --primary-color-opacity: #ff730050;
   --secondary-color: #ffffff;
   --primary-shadow: #000000;
   --box-shadow: 0px 2px 10px 1px var(--primary-shadow);
