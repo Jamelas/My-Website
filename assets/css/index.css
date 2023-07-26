@@ -29,12 +29,13 @@
   left: 0;
   width: 33.33333%;
   padding: 1.5%;
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
 }
 
+.hero-img {
+  text-align: center;
+}
 .hero img {
-  width: 100%;
+  width: 80%;
   margin-bottom: 1rem;
 }
 

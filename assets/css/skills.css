@@ -3,6 +3,9 @@
   
   .tech-icons {
     padding: 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
   }
   
   .tech i{
@@ -14,6 +17,7 @@
     box-shadow: var(--box-shadow);
     padding: 0.1em;
     margin: 0.1em;
+
   }
 
   /* ----- Tech Stack Ends ----- */
