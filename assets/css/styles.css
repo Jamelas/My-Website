@@ -31,6 +31,10 @@ html {
 
 h2 {
   margin-bottom: 1em;
+  background-color: var(--bg-color);
+  padding: 0.6em;
+  color: #ffffff;
+  border-radius: var(--border-radius);
 }
 
 body {
