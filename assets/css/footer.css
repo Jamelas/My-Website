@@ -28,6 +28,7 @@ footer {
   footer hr {
     margin: 0.4em;
     height: 2.5px;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
   }
   
