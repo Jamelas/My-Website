@@ -12,13 +12,13 @@ class Head extends HTMLElement {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
     
     <!-- CSS Styles -->
-    <link rel="stylesheet" type="text/css" href="jamelas.github.io/assets/css/styles.css"/> 
-    <link rel="stylesheet" type="text/css" href="jamelas.github.io/assets/css/nav-bar.css"/> 
-    <link rel="stylesheet" type="text/css" href="jamelas.github.io/assets/css/footer.css"/> 
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css"/> 
+    <link rel="stylesheet" type="text/css" href="assets/css/nav-bar.css"/> 
+    <link rel="stylesheet" type="text/css" href="assets/css/footer.css"/> 
 
-    <link rel="stylesheet" type="text/css" href="jamelas.github.io/assets/css/index.css"/>
-    <link rel="stylesheet" type="text/css" href="jamelas.github.io/assets/css/projects.css"/>
-    <link rel="stylesheet" type="text/css" href="jamelas.github.io/assets/css/contact.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/projects.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css"/>
     
     <!-- Favicons -->
     <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/JD.png"/>
