@@ -18,16 +18,19 @@
   }
 }
 
-.third{
+.third {
   float: left;
   left: 0;
   width: 33.33333%;
-  
 }
 
+.hero {
+  height: 100%;
+}
 .hero-img {
   text-align: center;
 }
+
 .hero img {
   width: 80%;
   margin-bottom: 1rem;
@@ -36,14 +39,13 @@
 .hero .quick-stats td {
   vertical-align: baseline;
   text-align: center;
-  padding-bottom: 0.6em;
+  padding-bottom: 1.2em;
   word-wrap: break-word;
 }
 
 .hero .quick-stats i {
   font-size: 1.3em;
   margin-left: 0.3em;
-  margin-bottom: 0.4em;
   margin-right: 0.4em;
   color: var(--bg-color);
 }
@@ -53,13 +55,9 @@
   margin-left: 0.6em;
 }
 
-.hero hr {
-  margin-top: 1em;
-  margin-bottom: 2em;
-}
-
-.about h2 {
-  margin-bottom: var(--bottom-margin);
+.about h2,
+.education h2 {
+  margin-top: 1.8em;
 }
 
 .about p {
@@ -81,7 +79,8 @@
   color: var(--bg-color);
 }
 
-.main-index hr {
+.main-index hr,
+.hero hr {
   margin-top: 2em;
   margin-bottom: 2em;
 }
@@ -121,10 +120,6 @@
 
 .tech {
   margin-top: 2em;
-}
-
-.tech h2 {
-  text-align: center;
 }
   
 .tech-icons {

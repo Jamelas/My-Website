@@ -64,5 +64,6 @@
 @media screen and (max-width: 720px) {
   .project-card {
     width: 100%;
+    height: 45em;
   }
 }
