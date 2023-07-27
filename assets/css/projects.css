@@ -6,6 +6,7 @@
   width: 100%;
   margin-bottom: 2em;
 }
+
 .project-card:nth-child(odd) {
   background-color: var(--secondary-bg);
 }
