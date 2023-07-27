@@ -59,11 +59,23 @@
   display: inline;
 }
 
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 720px) {
   .project-card {
     width: 100%;
     height: 45em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .project-card {
+    width: 100%;
+    height: 36em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project-card {
+    width: 100%;
+    height: 30em;
   }
 }
