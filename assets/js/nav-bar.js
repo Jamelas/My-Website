@@ -7,11 +7,11 @@ class NavBar extends HTMLElement {
     this.innerHTML = `
     <div class="nav-behind">
       <nav>
-        <div class="nav-h1"><a href="https://jamelas.github.io.com/"><h1>Jamie Douglas</h1></a></div>
+        <div class="nav-h1"><a href="/"><h1>Jamie Douglas</h1></a></div>
           <ul class="navigation">
-          <li><a href="https://jamelas.github.io.com/" class="nav-link">About</a></li>
-          <li><a href="https://jamelas.github.io.com/projects" class="nav-link">Projects</a></li>
-          <li><a href="https://jamelas.github.io.com/contact" class="nav-link">Contact</a></li>
+          <li><a href="/" class="nav-link">About</a></li>
+          <li><a href="/projects" class="nav-link">Projects</a></li>
+          <li><a href="/contact" class="nav-link">Contact</a></li>
         </ul>
         <button class="burger-menu" id="burger-menu">
           <ion-icon class="bars" name="menu-outline"></ion-icon>
