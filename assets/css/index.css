@@ -1,9 +1,4 @@
-#home-page-image {
-  overflow: hidden;
-  position: relative;
-  margin-bottom: -0.4em;
-}
-
 img {
+  margin-bottom: -0.4em;
   width: 100vw;
 }
