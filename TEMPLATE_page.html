@@ -1,0 +1,53 @@
+<!-- Todo (when creating a new page)
+  - Replace "PAGENAME" with the title of the page -> lines 16, 24, 25, 27.
+  - Replace line 28 with contents of page.
+  - Update `nav-bar.js` to include a link to the new page.
+  - If creating a page-specific CSS file, update `head.js` so that the relevant stylesheet is called.
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="assets/js/head.js" type="text/javascript" defer></script>
+    <script src="assets/js/nav-bar.js" type="text/javascript" defer></script>
+    <script src="assets/js/footer.js" type="text/javascript" defer></script>
+    <head-component></head-component>
+    <title>Jamie Douglas | PAGENAME</title>
+  </head>
+
+  <body>  
+    <!-- Navbar -->
+    <navigation-component></navigation-component>
+
+    <div class="container">
+      <section class="PAGENAME" id="PAGENAME">
+        <h2 class="PAGENAME-title">See what I've been up to recently</h2>
+        <hr/>
+        <div class="PAGENAME-container">
+
+          <!-- page contents go here -->
+
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer section -->
+    <footer-component></footer-component>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+  </body>
+</html>
