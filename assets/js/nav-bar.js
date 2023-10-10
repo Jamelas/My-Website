@@ -10,6 +10,7 @@ class NavBar extends HTMLElement {
         <div class="nav-h1"><a href="/"><h1>Jamie Douglas</h1></a></div>
           <ul class="navigation">
           <li><a href="about" class="nav-link">About</a></li>
+          <li><a href="blog" class="nav-link">Blog</a></li>
           <li><a href="projects" class="nav-link">Projects</a></li>
           <li><a href="contact" class="nav-link">Contact</a></li>
         </ul>

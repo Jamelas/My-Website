@@ -19,6 +19,7 @@ class Head extends HTMLElement {
 
     <link rel="stylesheet" href="assets/css/index.css"/>
     <link rel="stylesheet" href="assets/css/about.css"/>
+    <link rel="stylesheet" href="assets/css/blog.css"/>
     <link rel="stylesheet" href="assets/css/projects.css"/>
     <link rel="stylesheet" href="assets/css/contact.css"/>
     
