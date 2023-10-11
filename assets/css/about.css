@@ -95,22 +95,20 @@
   color: var(--bg-color);
 }
 
-.main-index ul {
-  margin-top: 0.5em;
-  list-style-position: inside;
-  list-style: none;
-}
-
-.main-index li::before {
+table .bullet::before {
   content: "\25AA";
-  font-weight: 700;
+  font-weight: var(--bolder-font);
   display: inline-block;
   width: 1em; 
-  color: var(--bg-color)
+  color: var(--bg-color);
+}
+
+table .bullet {
+  vertical-align: top;
 }
 
 .work-title {
-  font-weight: 600;
+  font-weight: var(--bold-font);
   margin-top: 0.4em;
 }
 
